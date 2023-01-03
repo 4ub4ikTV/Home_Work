@@ -1,0 +1,113 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 1000px;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.verh {
+    margin-top: 40px;
+    width: 900px;
+    height: 400px;
+    background: #000aff;
+}
+
+p {
+    font-size: 20px;
+    color: #141e27;
+}
+
+.seredina {
+    width: 900px;
+    height: 800px;
+    align-items: flex-start;
+    column-gap: 25px;
+}
+
+.cde {
+    width: 750px;
+    column-gap: 15px;
+}
+
+.b1 {
+    width: 750px;
+    height: 200px;
+}
+
+.c1, .d1, .e1 {
+    width: 240px;
+    height: 200px;
+}
+
+.f1 {
+    width: 250px;
+    height: 410px;
+    text-align: center;
+}
+
+.bcde {
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.container, .verh, .seredina, .cde, .bcde {
+    display: flex;
+}
+
+.container, .verh, .bcde {
+    align-items: center;
+}
+
+.container, .verh {
+    justify-content: center;
+}
+
+.seredina, .cde, .bcde {
+    justify-content: space-evenly;
+}
+
+.verh, .seredina, .b1, .f1, .c1, .d1, .e1 {
+    border-radius: 10px;
+}
+
+.b1, .c1, .d1, .e1, .f1 {
+    background: #f60202;
+}
+
+@media screen  and (min-width: 0px) and (max-width: 972px) {
+
+    .seredina {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        row-gap: 15px;
+    }
+
+    .b1 {
+        width: 900px;
+        height: 300px;
+    }
+
+    .cde {
+        width: 900px;
+        justify-content: space-between;
+    }
+
+    .c1, .d1, .e1 {
+        width: 150px;
+    }
+
+    .f1 {
+        width: 900px;
+    }
+
+    .verh, .c1, .d1, .e1, .f1 {
+        height: 150px;
+    }
+}

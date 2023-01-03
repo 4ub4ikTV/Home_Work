@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.father, .bar, .square {
+    display: flex;
+}
+
+.father, .bar {
+    align-items: center;
+}
+
+.bar, .podval, .osnova {
+    width: 800px;
+    position: fixed;
+}
+
+.rectangle, .icon1, .icon2, .square {
+    position: fixed;
+}
+
+.father {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bar {
+    top: 0px;
+    height: 100px;
+    background: #ced8e1;
+    justify-content: end;
+}
+
+.rectangle {
+    width: 100px;
+    height: 40px;
+    background: #132b42;
+    left: 600px;
+    border-radius: 5px;
+}
+
+.icon1, .icon2 {
+    color: #868cac;
+    font-size: 20px;
+}
+
+.icon1 {
+    left: 1200px;
+}
+
+.icon2 {
+    left: 1240px;
+}
+
+.osnova {
+    background: #122d3f;
+    height: 500px;
+    top: 100px;
+}
+
+.podval {
+    background: #ced8e1;
+    height: 200px;
+    top: 600px;
+}
+
+.square {
+    column-gap: 15px;
+    flex-direction: row;
+    top: 520px;
+}
+
+.square1, .square2, .square3 {
+    background: #6a65e2;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+

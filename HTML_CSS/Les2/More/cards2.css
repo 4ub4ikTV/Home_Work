@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #c9856c;
+}
+
+.father {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.service {
+    width: 300px;
+    height: 400px;
+    border: 1px solid grey;
+    padding-top: 40px;
+}
+
+.txt {
+    color: grey;
+}
+
+.learnmore {
+    border: 1px solid #56c3b6;
+    width: 150px;
+    margin: 100px;
+    margin-left: 75px;
+    background: #56c3b6;
+    color: #fdfdfe;
+}
+
+.star {
+    font-size: 30px;
+    color: grey;
+}
+
+.location {
+    font-size: 30px;
+    color: grey;
+}
+
+.fire {
+    font-size: 30px;
+    color: grey;
+}
+
+.earth {
+    font-size: 30px;
+    color: grey;
+}
+
+.title {
+    text-align: center;
+}

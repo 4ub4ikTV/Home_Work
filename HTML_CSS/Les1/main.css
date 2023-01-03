@@ -1,0 +1,23 @@
+img {
+    width: 300px;
+}
+
+h1 {
+    background: red;
+    color: yellow;
+}
+
+h2 {
+    background: green;
+    color: grey;
+}
+
+p {
+    background: blue;
+    color: orange;
+}
+
+li {
+    background: grey;
+    color: aqua;
+}

@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 1000px;
+    background: blue;
+    border: 1px solid black;
+    row-gap: 10px;
+    margin: 10px;
+}
+
+.block-users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 3px solid green;
+    width: 200px;
+    justify-content: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    color: blue;
+}
+
+button {
+    background: #07f5c9;
+    border: 1px solid blue;
+}

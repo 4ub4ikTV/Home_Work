@@ -1,0 +1,16 @@
+.users-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 800px;
+    padding-left: 550px;
+    row-gap: 10px;
+}
+
+
+.user-block {
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
+}

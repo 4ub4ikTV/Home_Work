@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 250px;
+}
+
+.block-post {
+    background: #11f5f5;
+    border: 1px solid red;
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+.block-comment {
+    background: #ff0000;
+    border: 1px solid #141e27;
+    text-align: center;
+    color: #2269ba;
+    display: flex;
+}
+
+.comment {
+    border: 1px solid black;
+    width: 250px;
+    margin: 10px;
+    column-gap: 10px;
+    background: #ffffff;
+    padding: 5px;
+}

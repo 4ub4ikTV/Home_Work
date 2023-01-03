@@ -1,0 +1,61 @@
+body {
+    box-sizing: border-box;
+}
+
+.widgets {
+    width: 100%;
+    background: #2269ba;
+    height: 400px;
+    text-align: center;
+}
+
+.txtw {
+    font-size: 40px;
+    color: #fdfdfe;
+    padding-top: 180px;
+}
+
+.manywidgeets {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.bigw {
+    width: 230px;
+    height: 280px;
+    background: #16457a;
+}
+
+.biggerw {
+    width: 230px;
+    height: 280px;
+    background: #16457a;
+}
+
+.hugew {
+    width: 230px;
+    height: 280px;
+    background: #16457a;
+}
+
+.txtb {
+    color: #fdfdfe;
+    padding-top: 100px;
+}
+
+.contact {
+    width: 100%;
+    background: #2269ba;
+    height: 700px;
+    text-align: center;
+}
+
+.txtcontact {
+    color: #fdfdfe;
+    padding-top: 350px;
+    font-size: 40px;
+}
