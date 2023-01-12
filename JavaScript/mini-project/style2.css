@@ -2,26 +2,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("https://gozman.space/assets/img/blog/web/26/blueprint.jpg");
 }
 
 .users-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 200px
+    row-gap: 200px;
+    color: white;
 }
 
 .block-users {
     display: flex;
     flex-direction: column;
-    background: yellow;
-    border: 1px solid blue;
+    /*background: yellow;*/
+    border: 1px solid red;
+    border-radius: 10%;
     text-align: center;
     padding: 5px;
 }
 
 .post-of-current-user {
-    width: 1200px
+    width: 1200px;
+    background: yellow;
+    cursor: pointer;
 }
 
 .block-posts {
@@ -30,25 +35,30 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    background: #2269ba;
-    border: 1px solid black;
+    border: 1px solid yellow;
     width: 1200px;
     column-gap: 10px;
     height: 300px;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 a {
     text-decoration: none;
-    color: black;
-    font-size: 15px;
+    color: white;
+    font-size: 17px;
 }
 
 .posts-users {
-    border: 1px solid black;
+    border: 1px solid yellow;
     width: 200px;
     text-align: center;
     margin: 10px;
-    background: white;
     height: 70px;
 }
 

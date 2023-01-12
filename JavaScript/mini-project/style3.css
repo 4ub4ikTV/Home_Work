@@ -3,14 +3,16 @@ body {
     flex-direction: column;
     align-items: center;
     row-gap: 250px;
+    background-image: url("https://images.prom.ua/3733139107_w640_h640_foto-fon-vinilovyj-patrioticheskij.jpg");
 }
 
 .block-post {
-    background: #11f5f5;
     border: 1px solid red;
     text-align: center;
-    color: black;
+    background: #07f5c9;
+    color: #063095;
     padding: 5px;
+    font-size: 18px;
 }
 
 .block-comment {
