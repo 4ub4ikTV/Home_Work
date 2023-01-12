@@ -2,8 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://gozman.space/assets/img/blog/web/26/blueprint.jpg");
+    background: radial-gradient(at 0% 0%, #6b5ef7, #f75e5e);
 }
+
 
 .users-info {
     display: flex;
@@ -16,8 +17,7 @@ body {
 .block-users {
     display: flex;
     flex-direction: column;
-    /*background: yellow;*/
-    border: 1px solid red;
+    border: 1px solid yellow;
     border-radius: 10%;
     text-align: center;
     padding: 5px;

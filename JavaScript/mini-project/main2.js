@@ -33,3 +33,9 @@ fetch('https://jsonplaceholder.typicode.com/posts/' + search)
                 }
             })
     })
+
+document.addEventListener('mousemove', e => {
+    const y = (e.clientY / window.screen.availHeight) * 360;
+    const y2 = (e.clientY / window.screen.availHeight) * 180;
+    document.body.style.background = `linear-gradient(180deg, hsl(${y}, 100%, 50%), hsl(${y2}, 50%, 50%)`;
+});

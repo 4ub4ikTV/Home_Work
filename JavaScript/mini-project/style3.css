@@ -3,24 +3,23 @@ body {
     flex-direction: column;
     align-items: center;
     row-gap: 250px;
-    background-image: url("https://images.prom.ua/3733139107_w640_h640_foto-fon-vinilovyj-patrioticheskij.jpg");
+    background: radial-gradient(at 0% 0%, #6b5ef7, #f75e5e);
 }
 
 .block-post {
-    border: 1px solid red;
+    border: 1px solid black;
+    border-radius: 8%;
     text-align: center;
-    background: #07f5c9;
-    color: #063095;
+    color: white;
     padding: 5px;
     font-size: 18px;
 }
 
 .block-comment {
-    background: #ff0000;
-    border: 1px solid #141e27;
     text-align: center;
     color: #2269ba;
     display: flex;
+    border-radius: 5%;
 }
 
 .comment {
@@ -28,6 +27,8 @@ body {
     width: 250px;
     margin: 10px;
     column-gap: 10px;
-    background: #ffffff;
+    background-color: rgba(28,28,28,0);
     padding: 5px;
+    border-radius: 10%;
+    color: white;
 }

@@ -20,3 +20,11 @@ fetch('https://jsonplaceholder.typicode.com/users')
             document.body.appendChild(div1)
         }
     })
+
+document.addEventListener('mousemove', e => {
+    w = window.innerWidth;
+    h = window.innerHeight;
+    x = Math.round(e.pageX / w * 100);
+    y = Math.round(e.pageY / h * 100);
+    document.body.style.background = `radial-gradient(at ${x}% ${y}%, #6b5ef7, #f75e5e)`;
+});
